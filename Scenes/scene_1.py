@@ -27,10 +27,10 @@ def play_scene():
     print("Section B: [Provide more story context or a second setting]")
     
     # Example of a second choice for Section B
-    choice_b = input("Do you 'follow' the strange noise or 'ignore' it? ").lower().strip()
+    choice_b = input("someone asked for a help because his leg is traped ").lower().strip()
     
-    if choice_b == "follow":
-        print("You follow the noise into a dark corridor...")
+    if choice_b == "help":
+        print("you helped him and he give you a key")
         # Decide the next scene
         return "scene_2"
     elif choice_b == "ignore":
